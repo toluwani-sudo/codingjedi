@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<head>
+            <meta charset="UTF-9">
+            <link rel="stylesheet" href="Dashboard.css">
+            <script src="https://cdn.jsdelivr.net/npm/chart.js@3.8.0/dist/chart.min.js"</script></script>
+            
+</head>
+    
+<body>
+                    
+        <section class="dashboard">
+                     <h1>Dashboard</h1>
+                    <input type="text" class="email" placeholder="Search here" fas-search>
+                    <button type="submit" class="search-button">Search</button>
+                    <p>John Doe</p>
+                    <img src="B.jordan.jpg" class="bj">
+                        </section>
+                            <section class="sidebar">
+                            <h1> Accusoft</h1>
+                            <ul>
+                                <li> Dashboard</li><ion-icon name="clipboard-outline"></ion-icon>
+                                <li> Customers</li><ion-icon name="add-outline"></ion-icon>
+                                <li> Projects</li><ion-icon name="analytics-outline"></ion-icon>
+                                <li> Orders</li><ion-icon name="reorder-four-outline"></ion-icon>
+                                <li> Inventory</li><ion-icon name="invert-mode-outline"></ion-icon>
+                                <li> Accounts</li><ion-icon name="people-outline"></ion-icon>
+                                <li> Tasks</li><ion-icon name="git-network-outline"></ion-icon>
+
+                            </ul>
+                        </section>
+                                        <div class="card1">
+                                            <h1> 54</h1>
+                                            <p>Customers</p>
+                                        </div>
+                                        <div class="card2">
+                                            <h1> 79</h1>
+                                            <p>Projects</p>
+                                        </div>
+                                        <div class="card3">
+                                            <h1> 124</h1>
+                                            <p>Orders</p>
+                                        </div>
+                                        <div class="card4">
+                                            <h1> $6k</h1>
+                                            <p>Income</p>
+                                        </div>
+                                            <section class="table"> 
+                                                <button type="button" class="table-button">See all</button>
+                                                <label> Recent Projects</label><br>
+                                                <div>Project title </div>
+                                                <div>Department</div>
+                                                <div>Status</div>
+                                                <div>ui/ux</div>
+                                                <div>Web dev</div>
+                                                <div>unishop app</div>
+                                                <div>ui/ux</div>
+                                                <div>Web dev</div>
+                                                <div> Department</div>
+                                                <div>UI team</div>
+                                                <div>Frontend</div>
+                                                <div>mobile team</div>
+                                                <div>UI team</div>
+                                                <div>Frontend</div>
+                                                <div>mobile team</div>
+                                                <div>UI team</div>
+                                                <div>Frontend</div>
+                                                <div>Status</thead>
+                                                
+                                        </section>
+                                                <section class="customer-menu">
+                                                    <button type="button" class="customer-menu-button">See all</button>
+                                                    
+                                                   
+                                                    <img src="B.jordan.jpg" class="bj2"><br>
+                                                    <p> CEO </p><br>
+                                                    <img src="B.jordan.jpg" class="bj3"><br>
+                                                    <p> CEO </p><br>
+                                                    <img src="B.jordan.jpg" class="bj4"><br>
+                                                    <p> CEO </p><br>
+                                                    
+                                                    
+                                                    
+                                                   
+                                                </section>
+                                                <section class="container">
+                                                    <canvas id="myChart"></canvas></section>
+                                                        <script>
+                                                                    const ctx = document.getElementById('myChart').getContext('2d');
+                                                                    const ctxChart = new Chart(ctx, {
+                                                                    type: 'line',
+                                                                    data: {
+                                                                        labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],
+                                                                        datasets: [{
+                                                                            label: '# of Votes',
+                                                                            data: ['12, 19, 3, 5, 2, 3'],
+                                                                            backgroundColor: [
+                                                                                'rgba(255, 99, 132, 1)',
+                                                                                'rgba(54, 162, 235, 1)',
+                                                                                'rgba(255, 206, 86, 1)',
+                                                                                'rgba(75, 192, 192, 1)',
+                                                                                'rgba(153, 102, 255, 1)',
+                                                                                'rgba(255, 159, 64, 1)'
+                                                                            ],
+                                                                            borderColor: [
+                                                                                'rgba(255, 99, 132, 1)',
+                                                                                'rgba(54, 162, 235, 1)',
+                                                                                'rgba(255, 206, 86, 1)',
+                                                                                'rgba(75, 192, 192, 1)',
+                                                                                'rgba(153, 102, 255, 1)',
+                                                                                'rgba(255, 159, 64, 1)'
+                                                                            ],
+                                                                            borderWidth: 1
+                                                                        }]
+                                                                    },
+                                                                    options: {
+                                                                        responsive:true,
+                                                                        fill:true,
+                                                                        scales: {
+                                                                            y: {
+                                                                                beginAtZero: true
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                });
+                                                </script>
+                                               
+                                               <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+                                               <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+        </body>                                      
+
+        </section>
+    
